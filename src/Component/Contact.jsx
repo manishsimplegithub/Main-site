@@ -20,7 +20,7 @@ const Contact = () => {
   const onSubmits = (e) => {
     e.preventDefault();
     alert(
-      ` My name is ${data.fullname}\n my mobile number is ${data.number}\n my email is ${data.Email}\n write any message ${data.msg}`
+      ` My name is ${data.fullname} my mobile number is ${data.number} my email is ${data.Email} write any message ${data.msg}`
     );
   };
 
